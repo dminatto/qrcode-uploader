@@ -17,26 +17,32 @@ for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+This project use node **v17.6.0**, you can use nvm to change the version
 
-    Give examples
+    nvm use
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development
-env running
+Clone the repository:
 
-Say what the step will be
+    git clone git@github.com:dminatto/qrcode-uploader.git
 
-    Give the example
 
-And repeat
+Install the packages:
 
-    until finished
+    npm i
 
-End with an example of getting some data out of the system or using it
-for a little demo
+Go to project directory:
 
+    cd qrcode-uploader
+
+In the project directory, you can run:
+
+    npm start
+
+Runs the app in the development mode.
+
+Open http://localhost:3000 to view it in your browser.
 
 
 ## Built With

@@ -1,4 +1,4 @@
-import React, {Component, useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import Uploader from "../../components/uploader";
 import {Box, Button, Modal, Typography} from '@mui/material';
 import {useParams} from "react-router-dom";
@@ -22,14 +22,18 @@ export default function Upload() {
     const handleClose = () => setModal(false);
 
     useEffect(() => {
-        if (progress === 100){
+        if (progress === 100) {
             setModal(true);
         }
     }, [progress])
 
     return (
         <Box sx={{width: '100%'}}>
-            <Box>
+            <Box
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+            >
                 <Button>
                     <Uploader videoId={(params.videoId || "")} trackProgress={setProgress}/>
                 </Button>
