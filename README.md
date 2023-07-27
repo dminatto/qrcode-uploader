@@ -15,6 +15,9 @@ These instructions will get you a copy of the project up and running on
 your local machine for development and testing purposes. See deployment
 for notes on how to deploy the project on a live system.
 
+### Images
+![Untitled design](https://github.com/dminatto/qrcode-uploader/assets/12018609/057072e2-e6bd-4e69-9e42-66bc2240d63c)
+
 ### Prerequisites
 
 This project use node **v17.6.0**, you can use nvm to change the version
@@ -24,6 +27,7 @@ This project use node **v17.6.0**, you can use nvm to change the version
 ### Installing
 
 Clone the repository:
+
 
     git clone git@github.com:dminatto/qrcode-uploader.git
 
